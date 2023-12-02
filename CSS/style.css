@@ -1,0 +1,167 @@
+
+		<style type="text/css">
+			* {	font-family: Lato, sans-serif;}
+
+					h1 {
+			      letter-spacing: 5px;
+			      text-transform: uppercase;
+			      font: 20px "Lato", sans-serif;
+			      color: #111;
+						text-align: center;
+						margin: 20px;
+						padding: 20px;
+			    }
+
+		#bry  {
+			float: left;
+ 			margin: 0 0 0 15px;
+}
+
+.button{
+	border: none;
+	color: #484A47;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button:hover {
+  background-color: #A37774;
+}
+
+
+	/*------- Nav CSS ---------*/
+								.nav {
+								  background-color: #DDD;
+				 				  padding: 10px;
+									min-width: 760px;
+									color: black;
+									text-align: center;
+				 					padding: 10px;}
+
+									.nav li {
+				  				display: inline-block;
+				  				max-width: 20%;
+									margin-right: 25px;
+								}
+
+							.nav a:hover {
+				  				background-color: #A37774;
+								}
+
+
+/*-------portfolio css ---------*/
+/*
+figure {
+  margin: 30px;
+	color: black;
+} */
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.bottom-row,
+.third-row {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.column {
+  padding: 10px;
+}
+
+.column img {
+  width: 375px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 5px;
+}
+.PSL{
+	border: 1px solid grey;
+	border-radius: 8px;
+}
+
+/*-----Adventures CSS-----*/
+
+.adventures{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #fff;
+}
+
+h2{
+  color: black;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.adventures h3{
+  color: black;
+	text-align: center;
+	font-family: Lato, sans-serif;
+}
+
+.image-col{
+  flex-basis: 32%;
+  margin-bottom: 30px;
+  position:relative;
+  overflow: hidden;
+}
+.image-col img{
+  width: 100%;
+  display: block;
+}
+
+.row{
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/*------ Footer CSS --------*/
+					.footer {
+					  background-color: #3D3E3C;
+						min-width: 760px;
+						/* max-width: 1100px; */
+						/*margin: 20px;*/
+					  padding: 10px;
+					  text-align: center;
+					  font-size: 14px;
+					  color: #ddd;
+					}
+
+					.footer a:hover {
+							background-color: #A37774;
+						}
+		</style>
