@@ -1,6 +1,8 @@
 
 		<style type="text/css">
-			* {	font-family: Lato, sans-serif;}
+			* {font-family: Lato, sans-serif;
+			min-width: 640px;}
+
 
 					h1 {
 			      letter-spacing: 5px;
@@ -14,7 +16,7 @@
 
 		#bry  {
 			float: left;
- 			margin: 0 0 0 15px;
+ 			margin: 15px 0 5% 15px;
 }
 
 .button{
@@ -50,7 +52,6 @@
 				  				background-color: #A37774;
 								}
 
-
 /*-------portfolio css ---------*/
 /*
 figure {
@@ -80,7 +81,10 @@ figure {
 }
 
 .column {
-  padding: 10px;
+  padding: 5px;
+	margin: 5px;
+	border: 1px solid grey;
+	border-radius: 8px;
 }
 
 .column img {
@@ -90,11 +94,23 @@ figure {
   border-radius: 8px;
   margin: 5px;
 }
-.PSL{
-	border: 1px solid grey;
-	border-radius: 8px;
+
+.irish {
+	width: 375px;
+	height: 339px;
+	text-align: center;
+	align-items: center;
+	height: 50%
 }
 
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+.column p{
+	text-align: center;
+}
 /*-----Adventures CSS-----*/
 
 .adventures{
@@ -150,18 +166,19 @@ h2{
 }
 
 /*------ Footer CSS --------*/
-					.footer {
-					  background-color: #3D3E3C;
-						min-width: 760px;
-						/* max-width: 1100px; */
-						/*margin: 20px;*/
-					  padding: 10px;
-					  text-align: center;
-					  font-size: 14px;
-					  color: #ddd;
-					}
+	.footer {
+		background-color: #3D3E3C;
+		min-width: 760px;
+	  /* max-width: 1100px; */
+		/*margin: 20px;*/
+		padding: 10px;
+		text-align: center;
+		font-size: 14px;
+		color: #ddd;
+			}
 
-					.footer a:hover {
-							background-color: #A37774;
+ 	.footer a:hover {
+		background-color: #A37774;
 						}
+
 		</style>
